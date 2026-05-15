@@ -8,7 +8,7 @@
 To get started, just add the following line to the `dependencies` section in your `Cargo.toml`:
 ```toml
 [dependencies]
-poc-framework = { git = "https://github.com/neodyme-labs/solana-poc-framework.git", branch = "2.2" }
+poc-framework = { git = "https://github.com/kehsihba-etahdiv/solana-poc-framework.git", branch = "2.2" }
 ```
 This crate already re-exports every Solana dependency you should need.
 
