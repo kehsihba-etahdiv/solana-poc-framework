@@ -1,14 +1,12 @@
 # Solana PoC Framework
 
-[![](https://img.shields.io/crates/v/poc-framework)](https://crates.io/crates/poc-framework) [![](https://docs.rs/poc-framework/badge.svg)](https://docs.rs/poc-framework/)
-
 **DISCLAIMER: any illegal usage of this framework is heavily discouraged. Most projects on Solana offer a more than generous bug bounty. Also you don't want your kneecaps broken.**
 
 ## Usage
 To get started, just add the following line to the `dependencies` section in your `Cargo.toml`:
 ```toml
 [dependencies]
-poc-framework = { git = "https://github.com/kehsihba-etahdiv/solana-poc-framework.git", branch = "2.2" }
+poc-framework = { git = "https://github.com/kehsihba-etahdiv/solana-poc-framework.git", branch = "2.3" }
 ```
 This crate already re-exports every Solana dependency you should need.
 
@@ -18,6 +16,7 @@ If your program needs a specific Solana version, you can just specify the corres
 * 1.14
 * 1.16
 * 2.2
+* 2.3
 
 
 ## What this framework is for
